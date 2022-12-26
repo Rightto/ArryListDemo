@@ -13,6 +13,11 @@ public class LinkedListDemo {
 		list.add("Samiksha");
 		list.add("Pune");
 
-		list.forEach(x -> System.out.println(x));
+		for (String s : list) {
+
+			System.out.println(s);
+
+		}
+
 	}
 }
